@@ -19,7 +19,7 @@ public:
     int  getSize()  { return size;         }
 };
 
-int main() {
+int aid() {
     srand(time(NULL));
     MyStack st;
     for (int i = 0; i < 10; i++) {
